@@ -1,0 +1,42 @@
+# Environment variables
+.env
+
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Directory for instrumented libs
+lib-cov/
+
+# Coverage directory
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# Credential files
+credentials.json
+token.json
+
+# Build output
+dist/
+build/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db 
