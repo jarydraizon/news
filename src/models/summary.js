@@ -4,7 +4,6 @@ const summarySchema = new mongoose.Schema({
   date: {
     type: Date,
     required: true,
-    index: true
   },
   topicCategories: [{
     name: String,

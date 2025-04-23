@@ -10,5 +10,7 @@ module.exports = {
     '!**/node_modules/**'
   ],
   verbose: true,
-  testTimeout: 30000
-}; 
+  testTimeout: 30000,
+  // Add this line to use the setup file
+  setupFilesAfterEnv: ['<rootDir>/src/tests/setup.js']
+};

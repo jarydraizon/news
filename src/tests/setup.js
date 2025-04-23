@@ -21,7 +21,7 @@ process.env.EMAILS_BATCH_SIZE = process.env.EMAILS_BATCH_SIZE || '10';
 process.env.SUMMARY_RECIPIENT_EMAIL = process.env.SUMMARY_RECIPIENT_EMAIL || 'test@example.com';
 
 // Mock logger to avoid console output during tests
-jest.mock('../../utils/logger', () => ({
+jest.mock('../utils/logger', () => ({
   logger: {
     info: jest.fn(),
     error: jest.fn(),
@@ -53,3 +53,8 @@ afterEach(async () => {
     await collection.deleteMany({});
   }
 }); 
+
+// Add this to your src/tests/setup.js
+mongoose.connection.on('error', (e) => {
+  console.error('MongoDB connection error:', e);
+});
