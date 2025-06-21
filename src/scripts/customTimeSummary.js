@@ -277,4 +277,4 @@ async function main() {
 }
 
 // Run the script
-main();
+main(); 
