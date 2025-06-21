@@ -7,7 +7,7 @@
 
 const newsletterSources = [
     // Technology newsletters
-    'news@daily.therundown.ai',
+    'CloudPlatform-noreply@google.com',
     // 'morning.brew@morningbrew.com',
     // 'newsletters@theverge.com',
     // 'today@techmeme.com',

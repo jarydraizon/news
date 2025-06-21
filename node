@@ -1,0 +1,18 @@
+2025-06-21T17:42:32.996Z [[32MINFO[39M]: Connected to MongoDB
+Connected to MongoDB
+Newsletter query: (from:news@daily.therundown.ai)
+Fetching newsletter emails from Gmail...
+Using query: "(from:news@daily.therundown.ai) after:2025-06-20"
+Max results: 100
+Looking back 1 days
+Initial email count: 100
+Calling fetchEmails with options: {"maxResults":100,"query":"(from:news@daily.therundown.ai) after:2025-06-20"}
+2025-06-21T17:42:33.402Z [[32MINFO[39M]: Found 1 emails to process
+2025-06-21T17:42:33.412Z [[34MDEBUG[39M]: Email with messageId 1978ccce20f30c1f already exists. Skipping.
+2025-06-21T17:42:33.413Z [[32MINFO[39M]: Successfully processed 0 emails
+
+Fetch completed.
+- Total newsletter emails found: 0
+- New emails added to database: 0
+No newsletter emails found matching the criteria.
+Database connection closed.
